@@ -1,0 +1,63 @@
+/* Classes.css */
+
+.bg-container {
+    background-color: #f7f7f7; /* Add background color to the container */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    margin-bottom: 20px;
+  }
+  
+  .video {
+    margin-bottom: 20px; /* Add margin bottom to create space between videos */
+  }
+  
+  .video-details {
+    flex: 1;
+  }
+  
+  .video-details h3,
+  .video-details p {
+    margin-bottom: 10px;
+  }
+  
+  .practice-button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .practice-button:hover {
+    background-color: black;
+  }
+  
+  /* Add margin to hr to ensure it appears below the video container */
+  hr {
+    margin-top: 20px;
+  }
+  
+  .paging {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .video-container {
+      flex-direction: row; /* Change flex direction back to row for smaller screens */
+    }
+    
+    .video {
+      margin-bottom: 0; /* Remove margin bottom for videos to align horizontally */
+      margin-right: 20px; /* Add margin right to create space between videos */
+    }
+  }
+  

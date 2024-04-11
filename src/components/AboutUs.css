@@ -1,0 +1,44 @@
+/* AboutUs.css */
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .about-us-item {
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Update box shadow */
+  }
+  
+  .image-container,
+  .description-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust the spacing between sections */
+  .about-us-item:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last item */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .about-us-item {
+      flex-direction: column;
+    }
+    
+    .image-container,
+    .description-container {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+/* ReviewsContainer.css */
+
+/* Container for reviews */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* Individual review container */
+  .single-container {
+    background-color: lightgray;
+    width: calc(100% / 3 - 40px); /* Adjust width for responsiveness */
+    max-width: 300px;
+    flex: 1;
+  }
+  
+  /* Image within the review */
+  .images {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Card containing review details */
+  .reviews-card {
+    background-color: grey;
+    height: auto;
+    padding: 10px;
+  }
+  
+  /* Name of the reviewer */
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Review text */
+  .review {
+    font-size: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .single-container {
+      width: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .single-container {
+      width: calc(100% - 20px); /* Adjust width for even smaller screens */
+    }
+  }
+  

@@ -1,0 +1,40 @@
+.outside-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 200px;
+    height: auto;
+    border: 2px solid lightgrey; /* Specify border with width and color */
+}
+
+.login {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center; /* Center text horizontally */
+}
+
+.username-container {
+    border: 2px solid lightgrey;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+/* Add margin:auto to center the button horizontally */
+.practice-button {
+    margin: auto;
+    
+}
+.para{
+    font-size: 15px;
+    color:black;
+    font-weight: 500;
+}
+
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
